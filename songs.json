@@ -1,0 +1,14 @@
+{
+  "canciones": [
+    {
+      "titulo": "Canción A",
+      "autor": "Artista 1",
+      "url": "https://tuusuario.github.io/musica-api/audio/cancionA.mp3"
+    },
+    {
+      "titulo": "Canción B",
+      "autor": "Artista 2",
+      "url": "https://tuusuario.github.io/musica-api/audio/cancionB.mp3"
+    }
+  ]
+}
