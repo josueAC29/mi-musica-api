@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Skript - Empresa de Jaiba Skript | Descarga el Juego</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  /* Reset */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background: #0d0d0d;
+    color: #00fff7;
+    font-family: 'Press Start 2P', cursive, monospace;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+  }
+  header {
+    width: 100%;
+    padding: 1.5rem 1rem;
+    background: #111;
+    box-shadow:
+      0 0 10px #00fff7,
+      0 0 40px #00fff7,
+      inset 0 0 20px #00ccc0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    user-select: none;
+  }
+  .crab-icon {
+    width: 50px;
+    height: 50px;
+    filter:
+      drop-shadow(0 0 6px #00fff7)
+      drop-shadow(0 0 10px #00b8b0);
+  }
+  .logo-text {
+    font-size: 1.5rem;
+    color: #00fff7;
+    text-shadow:
+      0 0 10px #00fff7,
+      0 0 20px #00fff7,
+      0 0 30px #00b8b0,
+      0 0 40px #009d92;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  main {
+    flex: 1;
+    width: 100%;
+    max-width: 700px;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  main h1 {
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+    text-shadow:
+      0 0 5px #00fff7,
+      0 0 20px #00fff7;
+  }
+  main p {
+    font-size: 1rem;
+    color: #33f9f3cc;
+    margin-bottom: 2rem;
+    line-height: 1.4;
+  }
+  .download-btn {
+    display: inline-block;
+    background: linear-gradient(45deg, #00fff7, #009d92);
+    color: #0d0d0d;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    box-shadow:
+      0 0 10px #00fff7,
+      0 0 20px #00fff7,
+      0 0 30px #009d92;
+    transition: box-shadow 0.25s ease, transform 0.15s ease;
+    user-select: none;
+  }
+  .download-btn:hover,
+  .download-btn:focus {
+    box-shadow:
+      0 0 18px #00fff7,
+      0 0 36px #00fff7,
+      0 0 54px #009d92;
+    transform: scale(1.05);
+    outline: none;
+  }
+  footer {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    color: #00665faa;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    user-select: none;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <div class="logo-container" aria-label="Logotipo Skript empresa de jaiba estilo videojuego">
+      <svg class="crab-icon" viewBox="0 0 64 64" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" >
+        <!-- Body -->
+        <rect x="20" y="28" width="24" height="12" fill="#00fff7" stroke="#00b8b0" stroke-width="1"/>
+        <!-- Claws -->
+        <rect x="12" y="24" width="8" height="8" fill="#00fff7" stroke="#00b8b0" stroke-width="1"/>
+        <rect x="44" y="24" width="8" height="8" fill="#00fff7" stroke="#00b8b0" stroke-width="1"/>
+        <!-- Legs Left -->
+        <rect x="14" y="36" width="4" height="2" fill="#009d92"/>
+        <rect x="14" y="40" width="4" height="2" fill="#009d92"/>
+        <rect x="14" y="44" width="4" height="2" fill="#009d92"/>
+        <!-- Legs Right -->
+        <rect x="46" y="36" width="4" height="2" fill="#009d92"/>
+        <rect x="46" y="40" width="4" height="2" fill="#009d92"/>
+        <rect x="46" y="44" width="4" height="2" fill="#009d92"/>
+        <!-- Eyes -->
+        <rect x="28" y="22" width="3" height="3" fill="#00fff7" stroke="#00b8b0" stroke-width="1"/>
+        <rect x="33" y="22" width="3" height="3" fill="#00fff7" stroke="#00b8b0" stroke-width="1"/>
+        <!-- Antenna -->
+        <rect x="26" y="18" width="2" height="4" fill="#009d92"/>
+        <rect x="36" y="18" width="2" height="4" fill="#009d92"/>
+      </svg>
+      <div class="logo-text">Skript</div>
+    </div>
+  </header>
+  <main>
+    <h1>¡Bienvenido a Skript!</h1>
+    <p>La nueva empresa que va a innovar el mundo de los videojuegos pixelados en 2D. Adéntrate en esta nueva aventura con nosotros.
+    </p>
+    <a href="skkript-game.zip" class="download-btn" download aria-label="Descargar juego Skript">DESCARGAR JUEGO</a>
+  </main>
+  <footer>
+    &copy; 2025 Skript - Empresa de Jaiba. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
+
